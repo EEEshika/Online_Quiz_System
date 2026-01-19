@@ -1,0 +1,74 @@
+/* ===== page background ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("../../../IndexImage/image/edu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ===== main box ===== */
+.box {
+    width: 90%;
+    max-width: 1000px;
+
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 14px;
+
+    box-shadow: 0 0 18px rgba(0,0,0,0.25);
+
+    max-height: 80vh;
+    overflow-y: auto;   /* ✅ scroll only inside */
+}
+
+/* ===== heading ===== */
+.box h2 {
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 22px;
+}
+
+/* ===== table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* ===== table cells ===== */
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* ===== table header ===== */
+th {
+    background-color: #2e7d32;
+    color: white;
+}
+
+/* ===== table row hover ===== */
+tr:hover td {
+    background-color: #f5f5f5;
+}
+
+/* ===== back link ===== */
+a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+
+    font-size: 14px;
+    color: purple;
+    text-decoration: none;
+}
