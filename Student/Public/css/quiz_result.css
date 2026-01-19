@@ -1,0 +1,74 @@
+/* ===== page background ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("../../../IndexImage/image/edu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ===== result card ===== */
+.result-box {
+    width: 380px;
+    padding: 30px;
+
+    background-color: rgba(190, 220, 130, 0.9);
+    border-radius: 16px;
+    text-align: center;
+
+    box-shadow: 0 0 18px rgba(0,0,0,0.3);
+}
+
+/* ===== heading ===== */
+.result-box h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* ===== score number ===== */
+.score {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1b5e20;
+    margin-bottom: 10px;
+}
+
+/* ===== message ===== */
+.thanks {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* ===== dashboard button ===== */
+.btn {
+    display: block;
+    padding: 10px;
+    margin-bottom: 14px;
+
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #1b5e20;
+}
+
+/* ===== logout ===== */
+.logout {
+    display: block;
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}

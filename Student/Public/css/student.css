@@ -1,0 +1,89 @@
+/* ===== page background ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("../../../IndexImage/image/edu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ===== login container ===== */
+.login-box {
+    width: 360px;
+
+    padding-top: 28px;
+    padding-right: 50px;
+    padding-bottom: 28px;
+    padding-left: 32px;
+
+    background-color: rgba(190, 220, 130, 0.88);
+    border-radius: 16px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== heading ===== */
+.login-box h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+/* ===== success message ===== */
+
+/* ===== error message ===== */
+.error {
+    text-align: center;
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* ===== input fields ===== */
+.login-box input {
+    width: 100%;
+    padding: 9px;
+    margin-top: 6px;
+
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* ===== login button ===== */
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 18px;
+
+    background-color: #2e7d32;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #1b5e20;
+}
+
+/* ===== register link ===== */
+.login-box a {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+
+    font-size: 13px;
+    color: purple;
+    text-decoration: none;
+}
