@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("../../../IndexImage/image/edu.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-box {
+    width: 420px;
+    background: rgba(190,220,130,0.95);
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 0 18px rgba(0,0,0,.3);
+}
+
+.menu a {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    background: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.menu a:hover {
+    background: #1b5e20;
+}
+
+.logout {
+    display: block;
+    margin-top: 20px;
+    color: red;
+    text-decoration: none;
+}

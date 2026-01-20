@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: url("../../../IndexImage/image/edu.jpg") center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    width: 900px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    overflow-y: auto;
+}
+
+button {
+    padding: 6px 12px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
